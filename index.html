@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./quiz.js">
+    <title>Document</title>
+</head>
+<body>
+    <div class="quiz-container" id="quiz">
+        <center><i><div id="question">Question text</div></i></center>
+
+        <div class="choices">
+            <button class="choice" id="a">Choice A</button>
+            <button class="choice" id="b">Choice B</button>
+            <button class="choice" id="c">Choice C</button>
+            <button class="choice" id="d">Choice D</button>
+        </div>
+        <button id="submit">Submit</button>
+    </div>
+    <div id="score-container" class="hidden">
+        <h1>Your Score: <span id="score">0</span></h1>
+    </div>
+    <script src="./quiz.js"></script>  
+</body>
+</html>

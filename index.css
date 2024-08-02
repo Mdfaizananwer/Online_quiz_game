@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(https://th.bing.com/th/id/R.3c1dd9a48beba7547417fb546fba5b8d?rik=9B0iVSi%2bYi9wRA&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2f0%2f7%2f3%2f820767-full-hd-nature-wallpapers-1920x1080-for-meizu.jpg&ehk=BGgL4g9sk2uysoCXn6sslXVXvfyXDH16ISeI2ZB475o%3d&risl=&pid=ImgRaw&r=0);
+    margin: 0;
+    opacity: 5;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.quiz-container {
+    background-color: rgb(146, 219, 195);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 25px;
+    width: 600px;
+    text-align: center;
+    border-radius: 30px;
+}
+
+.hidden {
+    display: none;
+}
+
+.choices button {
+    background: #00ffc8;
+    border: none;
+    letter-spacing: 0.2em;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    margin: 6px;
+    padding: 15px;
+    width: 100%;
+}
+
+.choices button:hover {
+    background: #000000;
+    color: #ffffff;
+    font-weight: bold;
+    letter-spacing: 0.2em;
+}
+
+#submit {
+    background: #00f2ff;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    letter-spacing: 0.2em;
+    cursor: pointer;
+    margin-top: 10px;
+    padding: 10px;
+    width: 100%;
+}
+
+#submit:hover {
+    background: #000000;
+    font-weight: bold;
+    letter-spacing: 0.2em;
+}
