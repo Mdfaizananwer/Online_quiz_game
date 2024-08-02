@@ -1,0 +1,33 @@
+# Online_quiz_game
+
+Description:
+An interactive and responsive online quiz application designed to provide users with a seamless and engaging experience while taking quizzes. This project was developed during my internship to enhance my skills in front-end development, user interface design, and JavaScript programming.
+
+Features
+Responsive Design:
+
+The application is fully responsive, ensuring a smooth user experience across various devices, including desktops, tablets, and mobile phones.
+Utilized CSS media queries to adjust the layout and elements dynamically based on screen size.
+Dynamic Content Loading:
+
+Questions and answer choices are dynamically loaded from a JavaScript object, allowing for easy updates and maintenance.
+Implemented a function to shuffle questions and choices to provide a unique experience for each quiz attempt.
+User Interaction:
+
+Added functionality for users to select and highlight their answers, providing immediate visual feedback.
+A "Submit" button to finalize the answer, with validation to ensure an answer is selected before submission.
+Score Calculation and Display:
+
+The application calculates the user's score based on the correct answers and displays the result at the end of the quiz.
+Implemented a dedicated score display section that appears after the quiz is completed, showing the total score and correct answers.
+Feedback on Selection:
+
+Immediate feedback is provided by showing the selected answer on the screen, enhancing user engagement and interactivity.
+This feature helps users keep track of their choices before submitting their final answer.
+User-Friendly Interface:
+
+Designed a clean and intuitive interface with easy navigation to ensure users can focus on the quiz without distractions.
+Utilized CSS for styling and animations to enhance the visual appeal of the application.
+
+Technologies Used
+HTML, CSS, JS with the help of VS Code
